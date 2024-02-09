@@ -42,7 +42,7 @@ function Home() {
           <button onChange={handleSearch}>Search</button>
         </div>
         <div className="content-cards">
-          <Cards />
+          <Cards data={dataHome} />
         </div>
       </div>
     </main>

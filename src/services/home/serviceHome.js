@@ -1,5 +1,5 @@
-import { dataHome } from "../data/dataHome";
-import { fetchAdventure, fetchHorror, fetchAction } from "./Home/fetchHome";
+import { dataHome } from "../../data/home/data";
+import { fetchAdventure, fetchHorror, fetchAction } from "./fetchHome";
 
 export const serviceHome = async () => {
     const dataAction = await fetchAction();
