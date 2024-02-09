@@ -29,9 +29,8 @@ function Home() {
   }
 
   return (
-    <main className="home">
-      <div className="content content-home">
-        <h1>Home</h1>
+    <main className="container home">
+      <section className="content content-home">
         <div className="search">
           <input
             type="text"
@@ -41,10 +40,10 @@ function Home() {
           />
           <button onChange={handleSearch}>Search</button>
         </div>
-        <div className="content-cards">
-          <Cards data={dataHome} />
-        </div>
-      </div>
+      </section>
+      <section className="container section-cards">
+        <Cards data={dataHome} />
+      </section>
     </main>
   );
 }

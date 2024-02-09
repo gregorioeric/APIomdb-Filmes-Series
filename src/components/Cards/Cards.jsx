@@ -3,7 +3,7 @@ import "./cards.css";
 function Cards({ data }) {
   return (
     <>
-      <div>
+      <div className="content content-cards">
         {data.map((e, i) => (
           <div key={i}>
             <h2>{e.title}</h2>

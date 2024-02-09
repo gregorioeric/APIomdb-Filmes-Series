@@ -1,0 +1,33 @@
+*, *::before, *::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+*{
+    font-family: cursive;
+}
+
+:root{
+    --color-white: rgb(255, 255, 255);
+    --color-black: rgb(0, 0, 0);
+    --color-green: rgb(9, 142, 6);
+    --color-light-green: rgb(12, 148, 146);
+    --color-red: rgb(255, 0, 0);
+    --color-blue: rgb(19, 112, 183);
+    --color-gray: rgb(74, 74, 74);
+    --color-orange: rgb(195, 131, 12);
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.content{
+    width: 85%;
+    margin: 0 auto;
+}
